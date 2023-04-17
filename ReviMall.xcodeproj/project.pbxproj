@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B39A88A29EAB20900EF246F /* ReviMallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39A88929EAB20900EF246F /* ReviMallApp.swift */; };
+		8B39A88E29EAB20A00EF246F /* SetupAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A88D29EAB20A00EF246F /* SetupAssets.xcassets */; };
+		8B39A89129EAB20A00EF246F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A89029EAB20A00EF246F /* Preview Assets.xcassets */; };
+		8B39A89B29EAB20B00EF246F /* ReviMallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39A89A29EAB20B00EF246F /* ReviMallTests.swift */; };
+		8B39A8A529EAB20B00EF246F /* ReviMallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39A8A429EAB20B00EF246F /* ReviMallUITests.swift */; };
+		8B39A8A729EAB20B00EF246F /* ReviMallUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39A8A629EAB20B00EF246F /* ReviMallUITestsLaunchTests.swift */; };
+		8B39A8B929EAB2E900EF246F /* CoreModule in Frameworks */ = {isa = PBXBuildFile; productRef = 8B39A8B829EAB2E900EF246F /* CoreModule */; };
+		8B39A8C029EAB46600EF246F /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8BF29EAB46600EF246F /* Debug.xcconfig */; };
+		8B39A8C129EAB46600EF246F /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8BF29EAB46600EF246F /* Debug.xcconfig */; };
+		8B39A8C229EAB46600EF246F /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8BF29EAB46600EF246F /* Debug.xcconfig */; };
+		8B39A8C429EAB47A00EF246F /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8C329EAB47A00EF246F /* Production.xcconfig */; };
+		8B39A8C529EAB47A00EF246F /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8C329EAB47A00EF246F /* Production.xcconfig */; };
+		8B39A8C629EAB47A00EF246F /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8C329EAB47A00EF246F /* Production.xcconfig */; };
+		8B39A8C829EAB4B900EF246F /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8C729EAB4B100EF246F /* Base.xcconfig */; };
+		8B39A8C929EAB4B900EF246F /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8C729EAB4B100EF246F /* Base.xcconfig */; };
+		8B39A8CA29EAB4BA00EF246F /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 8B39A8C729EAB4B100EF246F /* Base.xcconfig */; };
+		8BA5CA7329EC5ED6004C88A8 /* CartModule in Frameworks */ = {isa = PBXBuildFile; productRef = 8BA5CA7229EC5ED6004C88A8 /* CartModule */; };
+		8BA5CA7529EC74BE004C88A8 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA5CA7429EC74BE004C88A8 /* TabView.swift */; };
+		8BA5CA7729EC77A4004C88A8 /* AboutDevModule in Frameworks */ = {isa = PBXBuildFile; productRef = 8BA5CA7629EC77A4004C88A8 /* AboutDevModule */; };
+		8BA5EAD629EACE84006C3226 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA5EAD529EACE84006C3226 /* Colors.xcassets */; };
+		8BA5EAD829EAD050006C3226 /* ProductListModule in Frameworks */ = {isa = PBXBuildFile; productRef = 8BA5EAD729EAD050006C3226 /* ProductListModule */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B39A89729EAB20B00EF246F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B39A87E29EAB20900EF246F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B39A88529EAB20900EF246F;
+			remoteInfo = ReviMall;
+		};
+		8B39A8A129EAB20B00EF246F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B39A87E29EAB20900EF246F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B39A88529EAB20900EF246F;
+			remoteInfo = ReviMall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B39A88629EAB20900EF246F /* ReviMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReviMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B39A88929EAB20900EF246F /* ReviMallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviMallApp.swift; sourceTree = "<group>"; };
+		8B39A88D29EAB20A00EF246F /* SetupAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SetupAssets.xcassets; sourceTree = "<group>"; };
+		8B39A89029EAB20A00EF246F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B39A89629EAB20B00EF246F /* ReviMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B39A89A29EAB20B00EF246F /* ReviMallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviMallTests.swift; sourceTree = "<group>"; };
+		8B39A8A029EAB20B00EF246F /* ReviMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B39A8A429EAB20B00EF246F /* ReviMallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviMallUITests.swift; sourceTree = "<group>"; };
+		8B39A8A629EAB20B00EF246F /* ReviMallUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviMallUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B39A8B629EAB26100EF246F /* CoreModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoreModule; sourceTree = "<group>"; };
+		8B39A8BA29EAB35900EF246F /* ProductListModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ProductListModule; sourceTree = "<group>"; };
+		8B39A8BB29EAB37A00EF246F /* CartModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CartModule; sourceTree = "<group>"; };
+		8B39A8BC29EAB39200EF246F /* SharedUIModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SharedUIModule; sourceTree = "<group>"; };
+		8B39A8BD29EAB3AA00EF246F /* NetworkingModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkingModule; sourceTree = "<group>"; };
+		8B39A8BF29EAB46600EF246F /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		8B39A8C329EAB47A00EF246F /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		8B39A8C729EAB4B100EF246F /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		8B39A8CB29EAB80900EF246F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8BA5CA7429EC74BE004C88A8 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		8BA5EAD529EACE84006C3226 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AE47876229EC04F8004356DC /* AboutDevModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AboutDevModule; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B39A88329EAB20900EF246F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA5EAD829EAD050006C3226 /* ProductListModule in Frameworks */,
+				8B39A8B929EAB2E900EF246F /* CoreModule in Frameworks */,
+				8BA5CA7729EC77A4004C88A8 /* AboutDevModule in Frameworks */,
+				8BA5CA7329EC5ED6004C88A8 /* CartModule in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39A89329EAB20B00EF246F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39A89D29EAB20B00EF246F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B39A87D29EAB20900EF246F = {
+			isa = PBXGroup;
+			children = (
+				8B39A8B329EAB22200EF246F /* Modules */,
+				8B39A88829EAB20900EF246F /* ReviMall */,
+				8B39A89929EAB20B00EF246F /* ReviMallTests */,
+				8B39A8A329EAB20B00EF246F /* ReviMallUITests */,
+				8B39A88729EAB20900EF246F /* Products */,
+				8B39A8B729EAB2E900EF246F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B39A88729EAB20900EF246F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B39A88629EAB20900EF246F /* ReviMall.app */,
+				8B39A89629EAB20B00EF246F /* ReviMallTests.xctest */,
+				8B39A8A029EAB20B00EF246F /* ReviMallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B39A88829EAB20900EF246F /* ReviMall */ = {
+			isa = PBXGroup;
+			children = (
+				8BF10E3A29EBE2B9005DF782 /* HighLevelDependcies */,
+				8BA5EAD429EACE6F006C3226 /* SupportFiles */,
+				8B39A8CB29EAB80900EF246F /* Info.plist */,
+				8B39A8BE29EAB44200EF246F /* Configuration */,
+				8B39A88929EAB20900EF246F /* ReviMallApp.swift */,
+				8B39A88F29EAB20A00EF246F /* Preview Content */,
+				8BA5CA7429EC74BE004C88A8 /* TabView.swift */,
+			);
+			path = ReviMall;
+			sourceTree = "<group>";
+		};
+		8B39A88F29EAB20A00EF246F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B39A89029EAB20A00EF246F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B39A89929EAB20B00EF246F /* ReviMallTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B39A89A29EAB20B00EF246F /* ReviMallTests.swift */,
+			);
+			path = ReviMallTests;
+			sourceTree = "<group>";
+		};
+		8B39A8A329EAB20B00EF246F /* ReviMallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B39A8A429EAB20B00EF246F /* ReviMallUITests.swift */,
+				8B39A8A629EAB20B00EF246F /* ReviMallUITestsLaunchTests.swift */,
+			);
+			path = ReviMallUITests;
+			sourceTree = "<group>";
+		};
+		8B39A8B329EAB22200EF246F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AE47876229EC04F8004356DC /* AboutDevModule */,
+				8B39A8BD29EAB3AA00EF246F /* NetworkingModule */,
+				8B39A8BC29EAB39200EF246F /* SharedUIModule */,
+				8B39A8BB29EAB37A00EF246F /* CartModule */,
+				8B39A8BA29EAB35900EF246F /* ProductListModule */,
+				8B39A8B629EAB26100EF246F /* CoreModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8B39A8B729EAB2E900EF246F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B39A8BE29EAB44200EF246F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8B39A8BF29EAB46600EF246F /* Debug.xcconfig */,
+				8B39A8C329EAB47A00EF246F /* Production.xcconfig */,
+				8B39A8C729EAB4B100EF246F /* Base.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		8BA5EAD429EACE6F006C3226 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8B39A88D29EAB20A00EF246F /* SetupAssets.xcassets */,
+				8BA5EAD529EACE84006C3226 /* Colors.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		8BF10E3A29EBE2B9005DF782 /* HighLevelDependcies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HighLevelDependcies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B39A88529EAB20900EF246F /* ReviMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B39A8AA29EAB20B00EF246F /* Build configuration list for PBXNativeTarget "ReviMall" */;
+			buildPhases = (
+				8B39A88229EAB20900EF246F /* Sources */,
+				8B39A88329EAB20900EF246F /* Frameworks */,
+				8B39A88429EAB20900EF246F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReviMall;
+			packageProductDependencies = (
+				8B39A8B829EAB2E900EF246F /* CoreModule */,
+				8BA5EAD729EAD050006C3226 /* ProductListModule */,
+				8BA5CA7229EC5ED6004C88A8 /* CartModule */,
+				8BA5CA7629EC77A4004C88A8 /* AboutDevModule */,
+			);
+			productName = ReviMall;
+			productReference = 8B39A88629EAB20900EF246F /* ReviMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B39A89529EAB20B00EF246F /* ReviMallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B39A8AD29EAB20B00EF246F /* Build configuration list for PBXNativeTarget "ReviMallTests" */;
+			buildPhases = (
+				8B39A89229EAB20B00EF246F /* Sources */,
+				8B39A89329EAB20B00EF246F /* Frameworks */,
+				8B39A89429EAB20B00EF246F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B39A89829EAB20B00EF246F /* PBXTargetDependency */,
+			);
+			name = ReviMallTests;
+			productName = ReviMallTests;
+			productReference = 8B39A89629EAB20B00EF246F /* ReviMallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B39A89F29EAB20B00EF246F /* ReviMallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B39A8B029EAB20B00EF246F /* Build configuration list for PBXNativeTarget "ReviMallUITests" */;
+			buildPhases = (
+				8B39A89C29EAB20B00EF246F /* Sources */,
+				8B39A89D29EAB20B00EF246F /* Frameworks */,
+				8B39A89E29EAB20B00EF246F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B39A8A229EAB20B00EF246F /* PBXTargetDependency */,
+			);
+			name = ReviMallUITests;
+			productName = ReviMallUITests;
+			productReference = 8B39A8A029EAB20B00EF246F /* ReviMallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B39A87E29EAB20900EF246F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8B39A88529EAB20900EF246F = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					8B39A89529EAB20B00EF246F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 8B39A88529EAB20900EF246F;
+					};
+					8B39A89F29EAB20B00EF246F = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 8B39A88529EAB20900EF246F;
+					};
+				};
+			};
+			buildConfigurationList = 8B39A88129EAB20900EF246F /* Build configuration list for PBXProject "ReviMall" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B39A87D29EAB20900EF246F;
+			productRefGroup = 8B39A88729EAB20900EF246F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B39A88529EAB20900EF246F /* ReviMall */,
+				8B39A89529EAB20B00EF246F /* ReviMallTests */,
+				8B39A89F29EAB20B00EF246F /* ReviMallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B39A88429EAB20900EF246F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39A89129EAB20A00EF246F /* Preview Assets.xcassets in Resources */,
+				8B39A8C429EAB47A00EF246F /* Production.xcconfig in Resources */,
+				8B39A88E29EAB20A00EF246F /* SetupAssets.xcassets in Resources */,
+				8BA5EAD629EACE84006C3226 /* Colors.xcassets in Resources */,
+				8B39A8C029EAB46600EF246F /* Debug.xcconfig in Resources */,
+				8B39A8C829EAB4B900EF246F /* Base.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39A89429EAB20B00EF246F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39A8C129EAB46600EF246F /* Debug.xcconfig in Resources */,
+				8B39A8C529EAB47A00EF246F /* Production.xcconfig in Resources */,
+				8B39A8C929EAB4B900EF246F /* Base.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39A89E29EAB20B00EF246F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39A8C229EAB46600EF246F /* Debug.xcconfig in Resources */,
+				8B39A8C629EAB47A00EF246F /* Production.xcconfig in Resources */,
+				8B39A8CA29EAB4BA00EF246F /* Base.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B39A88229EAB20900EF246F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA5CA7529EC74BE004C88A8 /* TabView.swift in Sources */,
+				8B39A88A29EAB20900EF246F /* ReviMallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39A89229EAB20B00EF246F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39A89B29EAB20B00EF246F /* ReviMallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B39A89C29EAB20B00EF246F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B39A8A729EAB20B00EF246F /* ReviMallUITestsLaunchTests.swift in Sources */,
+				8B39A8A529EAB20B00EF246F /* ReviMallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B39A89829EAB20B00EF246F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B39A88529EAB20900EF246F /* ReviMall */;
+			targetProxy = 8B39A89729EAB20B00EF246F /* PBXContainerItemProxy */;
+		};
+		8B39A8A229EAB20B00EF246F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B39A88529EAB20900EF246F /* ReviMall */;
+			targetProxy = 8B39A8A129EAB20B00EF246F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B39A8A829EAB20B00EF246F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39A8C729EAB4B100EF246F /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B39A8A929EAB20B00EF246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39A8C729EAB4B100EF246F /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B39A8AB29EAB20B00EF246F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39A8BF29EAB46600EF246F /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReviMall/Preview Content\"";
+				DEVELOPMENT_TEAM = H6T8388P22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReviMall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reveridemo.precious.ReviMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B39A8AC29EAB20B00EF246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39A8C329EAB47A00EF246F /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReviMall/Preview Content\"";
+				DEVELOPMENT_TEAM = H6T8388P22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReviMall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reveridemo.precious.ReviMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B39A8AE29EAB20B00EF246F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39A8BF29EAB46600EF246F /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6T8388P22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reveri.precious.ReviMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReviMall.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReviMall";
+			};
+			name = Debug;
+		};
+		8B39A8AF29EAB20B00EF246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39A8C329EAB47A00EF246F /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6T8388P22;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reveri.precious.ReviMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReviMall.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReviMall";
+			};
+			name = Release;
+		};
+		8B39A8B129EAB20B00EF246F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39A8BF29EAB46600EF246F /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6T8388P22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reveri.precious.ReviMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReviMall;
+			};
+			name = Debug;
+		};
+		8B39A8B229EAB20B00EF246F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B39A8C329EAB47A00EF246F /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6T8388P22;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reveri.precious.ReviMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReviMall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B39A88129EAB20900EF246F /* Build configuration list for PBXProject "ReviMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B39A8A829EAB20B00EF246F /* Debug */,
+				8B39A8A929EAB20B00EF246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B39A8AA29EAB20B00EF246F /* Build configuration list for PBXNativeTarget "ReviMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B39A8AB29EAB20B00EF246F /* Debug */,
+				8B39A8AC29EAB20B00EF246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B39A8AD29EAB20B00EF246F /* Build configuration list for PBXNativeTarget "ReviMallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B39A8AE29EAB20B00EF246F /* Debug */,
+				8B39A8AF29EAB20B00EF246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B39A8B029EAB20B00EF246F /* Build configuration list for PBXNativeTarget "ReviMallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B39A8B129EAB20B00EF246F /* Debug */,
+				8B39A8B229EAB20B00EF246F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B39A8B829EAB2E900EF246F /* CoreModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreModule;
+		};
+		8BA5CA7229EC5ED6004C88A8 /* CartModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CartModule;
+		};
+		8BA5CA7629EC77A4004C88A8 /* AboutDevModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AboutDevModule;
+		};
+		8BA5EAD729EAD050006C3226 /* ProductListModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ProductListModule;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8B39A87E29EAB20900EF246F /* Project object */;
+}
